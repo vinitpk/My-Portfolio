@@ -10,11 +10,11 @@ const skillsIcons = [
   {
     img: "https://skillicons.dev/icons?i=mysql,maven",
     id: 2,
-    },
-    {
-        img: "https://skillicons.dev/icons?i=idea,git",
-        id: 3,
-      },
+  },
+  {
+    img: "https://skillicons.dev/icons?i=idea,git",
+    id: 3,
+  },
   {
     img: "https://skillicons.dev/icons?i=js,react",
     id: 4,
@@ -37,7 +37,7 @@ function Hero() {
                 <img src={Waving} alt="waving_hand" />
                 <p>
                   Hi, I'm Vinit Kelginmane. A passionate Java SpringBoot
-                  Developer based in Banglore, India.📍
+                  Developer based in Bengaluru, India.📍
                 </p>
                 <span>
                   <a
