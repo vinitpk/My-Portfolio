@@ -39,28 +39,7 @@ function Projects() {
                                 cName="reversed-proj"
                             />
 
-                            <ProBox
-                                title="CRUD"
-                                img={crud}
-                                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repudiandae mollitia eligendi tenetur et optio officia iste voluptas. Impedit similique non recusandae facilis molestiae labore quia nam! Sunt, consequatur excepturi."
-                                techno1="Spring Boot"
-                                techno2="Java"
-                                code="https://github.com/vinitpk"
-                                demo="https://github.com/vinitpk"
-                                icon="🛠️"
-                            />
-
-                            <ProBox
-                                title="CRUD"
-                                img={crud}
-                                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repudiandae mollitia eligendi tenetur et optio officia iste voluptas. Impedit similique non recusandae facilis molestiae labore quia nam! Sunt, consequatur excepturi."
-                                techno1="Spring Boot"
-                                techno2="Java"
-                                code="https://github.com/vinitpk"
-                                demo="https://github.com/vinitpk"
-                                icon="🛠️"
-                                cName="reversed-proj"
-                            />
+                            
                         </div>
                     </div>
                     {/* <h2 className="new-projects">New projects coming soon.. 🤠</h2> */}
