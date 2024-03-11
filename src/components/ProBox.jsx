@@ -46,7 +46,9 @@ const ProBox = (props) => {
                         )}
                         {icon}
                     </h3>
-                    <p style={{ textAlign: "justify", fontSize: "14px" }} >{description}</p>
+                    <p style={{ textAlign: "justify", fontSize: "14px" }}>
+                        {description}
+                    </p>
                     <div className="stack">
                         <p>{techno1}</p>
                         <p>{techno2}</p>
@@ -59,7 +61,11 @@ const ProBox = (props) => {
                         >
                             Source Code <IconBrandGithub />
                         </a>
-                        <a href={demo} rel="noopener noreferrer">
+                        <a
+                            href={demo}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             Demo <IconExternalLink />
                         </a>
                     </div>
