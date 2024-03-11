@@ -22,9 +22,16 @@ function Contact() {
                             </div>
 
                             <div className="contact__icon-box">
-                                <span>
-                                    <IconMail width={30} height={30} />
-                                </span>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="mailto:vinitpk00@gmail.com"
+                                >
+                                    <span>
+                                        <IconMail width={30} height={30} />
+                                    </span>
+                                </a>
+
                                 <div className="contact__info">
                                     <h3>Mail</h3>
                                     <a
