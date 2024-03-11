@@ -10,27 +10,25 @@ function Projects() {
                 <div className="container">
                     <div className="project-content">
                         <p>Portfolio</p>
-                        <h3>
-                            Each project is a unique piece of development 🧩
-                        </h3>
+                        <h3>Showcasing My Work 🧩</h3>
 
                         <div className="projects-grid">
                             <ProBox
                                 title="Instagram Clone"
                                 img={ighomepage}
-                                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repudiandae mollitia eligendi tenetur et optio officia iste voluptas. Impedit similique non recusandae facilis molestiae labore quia nam! Sunt, consequatur excepturi."
+                                description="Instagram clone employs Spring Boot, Spring Security, Java, React, MySQL, deployed on an AWS. User functionalities like creation, login, post, story, and follower/following management, it mirrors the popular social media platform. With robust security measures and seamless integration of frontend and backend technologies, it ensures a dynamic and secure user experience on a scalable cloud infrastructure."
                                 techno1="Spring Boot"
                                 techno2="Java"
                                 code="https://github.com/vinitpk/Instagram-Springboot-Backend"
                                 demo="http://43.205.235.133:82/login"
-                                // icon={igicon}
                                 imgemoji={igicon}
                             />
 
                             <ProBox
                                 title="CRUD"
                                 img={crud}
-                                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repudiandae mollitia eligendi tenetur et optio officia iste voluptas. Impedit similique non recusandae facilis molestiae labore quia nam! Sunt, consequatur excepturi."
+                                description="
+                                CRUD Spring Boot Java React MySQL application deployed on an AWS EC2 instance facilitates seamless management of data operations. Leveraging Spring Boot's robustness, React's dynamic frontend, and MySQL's relational database capabilities, it enables Create, Read, Update, and Delete functionalities. Deployed on AWS EC2, catering to diverse data management needs efficiently."
                                 techno1="Spring Boot"
                                 techno2="Java"
                                 code="https://github.com/vinitpk/CRUD-SpringBoot-Application"
@@ -38,8 +36,6 @@ function Projects() {
                                 icon="🛠️"
                                 cName="reversed-proj"
                             />
-
-                            
                         </div>
                     </div>
                     {/* <h2 className="new-projects">New projects coming soon.. 🤠</h2> */}

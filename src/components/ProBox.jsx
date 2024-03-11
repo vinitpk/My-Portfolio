@@ -46,7 +46,7 @@ const ProBox = (props) => {
                         )}
                         {icon}
                     </h3>
-                    <p>{description}</p>
+                    <p style={{ textAlign: "justify", fontSize: "14px" }} >{description}</p>
                     <div className="stack">
                         <p>{techno1}</p>
                         <p>{techno2}</p>
